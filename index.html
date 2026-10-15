@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      /* Compatibility shim: Allow browser extensions & interceptors to reassign window.fetch without TypeError */
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var activeFetch = originalFetch ? function() { return originalFetch.apply(window, arguments); } : undefined;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return activeFetch;
+            },
+            set: function(fn) {
+              activeFetch = fn;
+            }
+          });
+        } catch (e) {
+          // Fallback if property definition fails
+        }
+      })();
+    </script>
+
+    <!-- Google Consent Mode v2 (GDPR & UK Privacy Compliance) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'wait_for_update': 500
+      });
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthCalcHub — Free Health Calculators | Accurate, Private, Instant</title>
+    <meta name="description" content="Free, accurate, private, and instant health calculators by Hamad Khan. Calculate BMR, TDEE, Body Fat, Macros, BMI, Water Intake, Heart Rate, and more." />
+    <meta name="author" content="HAMAD KHAN" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0d9488" />
+    <link rel="canonical" href="https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app" />
+    
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HealthCalcHub — Free Health Calculators | Accurate, Private, Instant" />
+    <meta property="og:description" content="Free, accurate, private, and instant health calculators by Hamad Khan. Calculate BMR, TDEE, Body Fat, Macros, BMI, Water Intake, Heart Rate, and more." />
+    <meta property="og:site_name" content="HealthCalcHub" />
+    <meta property="og:url" content="https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app" />
+    <meta property="og:image" content="https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HealthCalcHub — Free Health Calculators" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HealthCalcHub — Free Health Calculators | Accurate, Private, Instant" />
+    <meta name="twitter:description" content="Free, accurate, private, and instant health calculators by Hamad Khan. Calculate BMR, TDEE, Body Fat, Macros, BMI, Water Intake, Heart Rate, and more." />
+    <meta name="twitter:url" content="https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app" />
+    <meta name="twitter:image" content="https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/og-image.jpg" />
+    
+    <!-- Google AdSense: Pre-approval phase requires NO active ad scripts until account is approved -->
+    <!-- After approval, uncomment below and replace ca-pub-XXXXXXXX with your verified publisher ID:
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Unified Schema.org Graph structured data (WebSite, Organization, Author) -->
+    <script type="application/ld+json" id="site-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/#organization",
+          "name": "HealthCalcHub",
+          "founder": {
+            "@type": "Person",
+            "@id": "https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/#author",
+            "name": "HAMAD KHAN",
+            "email": "hamadkahn2@gmail.com",
+            "telephone": "+923175698828",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "Pakistan"
+            },
+            "jobTitle": "Student & Health Enthusiast"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+923175698828",
+            "contactType": "Customer Support",
+            "email": "hamadkahn2@gmail.com",
+            "availableLanguage": ["English", "Urdu"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/#website",
+          "name": "HealthCalcHub",
+          "url": "https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app",
+          "publisher": {
+            "@id": "https://ais-pre-zfgcylqrdqvncvuxbjph2c-186109878983.asia-southeast1.run.app/#organization"
+          },
+          "description": "Free, accurate, private, and instant health calculators without signup, email, or tracking."
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen antialiased transition-colors duration-200">
+    <div id="root"></div>
+
+    <!-- GDPR / UK Cookie Consent Banner Fallback (Always present in static page source) -->
+    <noscript>
+      <div id="cookie-consent-fallback" class="p-4 bg-white border-t border-slate-200 text-xs text-slate-700">
+        <p><strong>Cookie Consent & Privacy Notice:</strong> HealthCalcHub uses cookies for preferences and analytics. View our <a href="/privacy">Privacy Policy</a> and <a href="/cookies">Cookie Policy</a>.</p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

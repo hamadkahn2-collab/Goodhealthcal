@@ -1,0 +1,6 @@
+{
+  "name": "HealthCalcHub",
+  "description": "Free, accurate, private, and instant health calculators by Hamad Khan. Calculate BMR, TDEE, Body Fat, Macros, BMI, Water Intake, Heart Rate, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
